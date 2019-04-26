@@ -1,0 +1,32 @@
+/* Navigation */
+.navbar {
+    background-color: #43C59E;
+}
+
+.navbar a {
+    color: #2E3F41;
+}
+/* End Navigation */
+
+
+/* Body Background */
+body {
+    background-color: #1A2331;
+    color: #CAD6E2;
+}
+/* End Body Background */
+
+
+#summary {
+    background-color: #43C59E;
+    
+    color: black;
+}
+
+.basic-group-container {
+    background-color: #303A4B;
+}
+
+.basic-group-container h1 {
+    color: #54D1FF;
+}

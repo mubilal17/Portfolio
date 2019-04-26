@@ -1,0 +1,29 @@
+@media only screen and (min-width: 768px) {
+
+    .row {
+        margin-top: 100px;
+    }
+    .basic-group-container, #summary {
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    #summary {
+        position: absolute;
+        top: 0px;
+    }
+
+    #education {
+        position: absolute;
+        left: 20%;
+        width: 80%;
+    }
+
+    #technical-skills{
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+    }
+
+
+}
