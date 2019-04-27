@@ -30,3 +30,7 @@ body {
 .basic-group-container h1 {
     color: #54D1FF;
 }
+
+#technical-skills li {
+    border-color: #298EB3
+}

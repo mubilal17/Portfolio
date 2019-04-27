@@ -1,5 +1,20 @@
-@media only screen and (min-width: 768px) {
+#summary h1, #education h1 {
+    position: relative; 
+    float: left;
+}
 
+#summary img, #education img {
+    position: relative;
+    float: right;
+}
+#technical-skills li {
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+}
+
+@media only screen and (min-width: 768px) {
+    
     .row {
         margin-top: 100px;
     }
@@ -19,11 +34,22 @@
         width: 80%;
     }
 
+    #summary img, #education img {
+        height: 40px;
+        top: -5px;
+    }
+
     #technical-skills{
         position: absolute;
         bottom: 0px;
+        height: auto;
         width: 100%;
     }
 
+    #technical-skills li {
+        padding: 10px;
+        border-radius: 5px;
+        margin: 5px;
+    }
 
 }
