@@ -6,6 +6,8 @@
 .navbar a {
     color: #2E3F41;
 }
+
+
 /* End Navigation */
 
 
@@ -19,16 +21,19 @@ body {
 
 #summary {
     background-color: #43C59E;
-    
     color: black;
 }
 
-.basic-group-container {
+.intro-container {
     background-color: #303A4B;
 }
 
-.basic-group-container h1 {
+.intro-container h1 {
     color: #54D1FF;
+}
+
+#summary h1 {
+    color: black;
 }
 
 #technical-skills li {

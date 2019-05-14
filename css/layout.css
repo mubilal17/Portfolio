@@ -3,7 +3,7 @@
     float: left;
 }
 
-#summary img, #education img {
+.intro-container-icons {
     position: relative;
     float: right;
 }
@@ -13,43 +13,64 @@
     border-width: 1px;
 }
 
+@media only screen and (max-width: 767px)
+{
+
+    .intro-container, #summary {
+        padding: 1.5em;
+        border-radius: 0.8em;
+        margin-top: 3em;
+    }
+
+    .intro-container-icons {
+        height: 3em;
+        top: -0.7em;
+    }
+
+    #technical-skills li {
+        padding: 0.5em;
+        border-radius: 0.5em;
+        margin: .5em;
+    }
+
+    #little-bit-about-me p {
+        margin-top: 2em;
+    }
+}
 @media only screen and (min-width: 768px) {
     
     .row {
-        margin-top: 100px;
+        margin-top: 6em;
     }
-    .basic-group-container, #summary {
-        padding: 15px;
-        border-radius: 10px;
+    .intro-container, #summary {
+        padding: 1em;
+        border-radius: 0.8em;
     }
-
     #summary {
         position: absolute;
-        top: 0px;
     }
-
     #education {
         position: absolute;
         left: 20%;
         width: 80%;
     }
 
-    #summary img, #education img {
-        height: 40px;
-        top: -5px;
+    .intro-container-icons {
+        height: 3em;
+        top: -0.2em;
     }
 
-    #technical-skills{
+    #technical-skills {
         position: absolute;
-        bottom: 0px;
         height: auto;
+        bottom: 0px;
         width: 100%;
     }
 
     #technical-skills li {
-        padding: 10px;
-        border-radius: 5px;
-        margin: 5px;
+        padding: 0.5em;
+        border-radius: 0.5em;
+        margin: .5em;
     }
 
 }

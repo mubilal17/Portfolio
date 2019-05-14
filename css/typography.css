@@ -1,19 +1,39 @@
 * {
     font-family: 'Open Sans', sans-serif;
+    word-wrap: break-word;
 }
 
 h1 {
     font-family: 'Lora', serif;
 }
 
+@media only screen and (max-width: 30em) {
+    h1 {
+        font-size: 1.4em;
+    }
+
+    #technical-skills li {
+        font-size: 0.8em;
+    }
+
+    .intro-container p {
+        margin-left: 1em;
+    }
+}
+
 
 @media only screen and (min-width: 768px) {
 
     h1 {
-        font-size: 25px;
+        font-size: 1.5em;
     }
 
-    #summary p, .basic-group-container p {
-        margin-left: 15px;
+    .intro-container p {
+        margin-left: 1em;
+        margin-right: 2em;
+    }
+
+    #summary.intro-container p {
+        margin-right: 3em;
     }
 }

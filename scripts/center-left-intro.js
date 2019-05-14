@@ -1,4 +1,4 @@
-var container = document.getElementById('left-intros');
+var container = document.getElementById('intros');
 var children = container.children;
 
 var containerHeight = container.offsetHeight;
