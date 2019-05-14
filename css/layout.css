@@ -13,6 +13,36 @@
     border-width: 1px;
 }
 
+
+#experience-list-container {
+    list-style: none;
+    padding: 0px;
+}
+
+#experience-list-container li {
+    width: 100%;
+}
+
+#experience-list-container li:last-child {
+    border: none;
+}
+
+.experience-heading {
+    width: 100%;
+    margin: 0px auto;
+}
+
+.experience-heading h1 {
+    text-align: center;
+}
+
+.experience-heading p {
+    text-align: right;
+}
+
+.experience-date p {
+    display: inline;
+}
 @media only screen and (max-width: 767px)
 {
 
@@ -35,6 +65,19 @@
 
     #little-bit-about-me p {
         margin-top: 2em;
+    }
+
+    #experience-list-container {
+        margin-top: 3em;
+    }
+
+    #experience-list-container li {
+        padding: 3em 1em;
+    }
+
+    .experience-date p {
+        position: relative;
+        top: 0.1em;
     }
 }
 @media only screen and (min-width: 768px) {
@@ -71,6 +114,22 @@
         padding: 0.5em;
         border-radius: 0.5em;
         margin: .5em;
+    }
+
+    #experience-list-container {
+        margin-top: 3em;
+    }
+
+    #experience-list-container li {
+        padding: 3em 1em;
+    }
+
+    .experience-date {
+        margin-top: 3em;
+    }
+    .experience-date p {
+        position: relative;
+        top: 0.1em;
     }
 
 }

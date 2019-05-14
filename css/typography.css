@@ -19,6 +19,20 @@ h1 {
     .intro-container p {
         margin-left: 1em;
     }
+
+    .experience-heading p {
+        font-size: 0.8em;
+    }
+
+    .experience-heading h1 {
+        font-size: 1em;
+    }
+    .experience-heading p {
+        font-size: 0.8em;
+    }
+    .experience-date p {
+        font-size: 0.8em;
+    }
 }
 
 
