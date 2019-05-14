@@ -39,3 +39,25 @@ body {
 #technical-skills li {
     border-color: #298EB3
 }
+
+#experience-list-container {
+    background-color: #303A4B;
+    border-color: #303A4B;
+}
+
+.active-experience-li {
+    color: black;
+    background-color: #43C59E;
+}
+
+#experience-list-container li {
+    border-bottom: 1px solid grey;
+}
+
+#experience-list-container li{
+    color: #54D1FF;
+}
+
+#experience-list-container .active-experience-li {
+    color: black !important;
+}
