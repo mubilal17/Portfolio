@@ -40,24 +40,19 @@ body {
     border-color: #298EB3
 }
 
-#experience-list-container {
+.experience-heading {
     background-color: #303A4B;
     border-color: #303A4B;
+    color: #54D1FF;
 }
 
-.active-experience-li {
+.active-experience-li div{
     color: black;
     background-color: #43C59E;
 }
 
-#experience-list-container li {
-    border-bottom: 1px solid grey;
-}
-
-#experience-list-container li{
-    color: #54D1FF;
-}
-
-#experience-list-container .active-experience-li {
-    color: black !important;
+.experience-body {
+    background-color: rgba(48,58,75, 0.90) !important;
+    color: #CAD6E2 !important;
+    opacity: 0.9;
 }
