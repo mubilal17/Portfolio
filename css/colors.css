@@ -37,7 +37,7 @@ body {
 }
 
 #technical-skills li {
-    border-color: #298EB3
+    border-color: #298EB3;
 }
 
 .experience-heading {
@@ -55,4 +55,20 @@ body {
     background-color: rgba(48,58,75, 0.90) !important;
     color: #CAD6E2 !important;
     opacity: 0.9;
+}
+
+#Contact-Body {
+    background-color: #303A4B;
+}
+
+.btn-primary {
+    background-color: #298EB3;
+}
+
+input[type="text"], textarea {
+    background-color: #FAFAFA;
+}
+
+input[type="text"]:focus, input[type="text"]:hover, input[type="email"]:focus, input[type="email"]:hover, textarea:focus, textarea:hover {
+    border: 0.2em solid #298EB3;
 }

@@ -13,7 +13,6 @@
     border-width: 1px;
 }
 
-
 .experience-li {
     list-style: none;
 }
@@ -33,8 +32,34 @@
     display: inline;
 }
 
+
+#Contact-Title {
+    color: #1A2331;
+    background-color: #43C59E;
+}
+
+#Contact-Title h1 {
+    position: relative;
+}
+.Contact-Item {
+    margin-bottom: 1em;
+}
+.Contact-Item p {
+    margin-left: 1em;
+    display: inline;
+}
+
+#Contact-Form input[type="submit"] {
+    position: relative;
+    float: right;
+}
+
 @media only screen and (max-width: 767px)
 {
+    .row {
+        margin-top: 5em;
+        margin-bottom: 5em;
+    }
 
     .intro-container, #summary {
         padding: 1.5em;
@@ -52,8 +77,8 @@
         margin: .5em;
     }
 
-    #little-bit-about-me p {
-        margin-top: 2em;
+    #little-bit-about-me{
+        display: none;
     }
 
     ul, .row {
@@ -83,11 +108,68 @@
     .experience-body {
         display: none;
     }
+
+    #leopard-pic {
+        margin-top: 5em;
+        width: 90%;
+        position: relative;
+        bottom: -0.3em;
+    }
+
+    #laptop-pic {
+        display: none;
+    }
+
+    #Contact-Title {
+        padding-top: 2em;
+        height: 5em;
+        border-radius: 0.5em 0.5em 0em 0em;
+    }
+
+    #Contact-Body {
+        width: 100%;
+        padding: 1.5em;
+        border-radius: 0em 0em 0.5em 0.5em;
+    }
+
+    .Contact-Item {
+        margin-bottom: 1em;
+    }
+
+    #Contact-Form {
+        margin-top: 3em;
+        margin-bottom: 3em;
+        width: 20em;
+    }
+
+
+    #Contact-Form label {
+        font-size: 0.8em;
+        width: 5em;
+        text-align: right;
+        margin-right: 1em;
+        margin-bottom: 2em;
+    }
+
+    #Contact-Form input, #Contact-Form textarea {
+        padding: 0.1em;
+
+        width: 10em;
+    }
+
+    #Contact-Form input[type="submit"] {
+        position: relative;
+        width: 5em;
+        right: 5em;
+        
+    }
+
 }
 @media only screen and (min-width: 768px) {
     
     .row {
         margin-top: 6em;
+        margin-bottom: 6em;
     }
     .intro-container, #summary {
         padding: 1em;
@@ -153,6 +235,59 @@
         padding: 2em;
         line-height: 150%;
         font-size: 0.8em;
+    }
+
+    #leopard-pic {
+        width: 90%;
+        position: relative;
+        bottom: -0.3em;
+    }
+
+    #laptop-pic {
+        padding-top: 10em;
+        width: 100%;
+    }
+
+    #Contact-Title {
+        padding-top: 2em;
+        height: 5em;
+        border-radius: 0.5em 0.5em 0em 0em;
+    }
+
+    #Contact-Body {
+        width: 100%;
+        padding: 3em;
+        border-radius: 0em 0em 0.5em 0.5em;
+    }
+
+    #Contact-Body p {
+        margin-bottom: 3em;
+    }
+
+    #Contact-Form {
+        padding: 3em;
+    }
+
+    #Contact-Form {
+        width: 35em;
+    }
+
+    #Contact-Form label {
+        width: 10em;
+        text-align: right;
+        margin-right: 2em;
+        margin-bottom: 2em;
+    }
+
+    #Contact-Form input, #Contact-Form textarea {
+        padding: 0.3em;
+        width: 15em;
+    }
+
+    #Contact-Form input[type="submit"] {
+        margin-top: 1em;
+        right: 1.75em;
+        width: 5em;
     }
 
 }
