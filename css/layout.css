@@ -13,6 +13,11 @@
     border-width: 1px;
 }
 
+#desktop-img {
+    height: 100%;
+    max-width: 100%;
+}
+
 .experience-li {
     list-style: none;
 }
@@ -30,12 +35,6 @@
 
 .experience-date p {
     display: inline;
-}
-
-
-#Contact-Title {
-    color: #1A2331;
-    background-color: #43C59E;
 }
 
 #Contact-Title h1 {
