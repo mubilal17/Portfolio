@@ -262,12 +262,8 @@
 
     #Contact-Form {
         padding: 3em;
-    }
-
-    #Contact-Form {
         width: 35em;
     }
-
     #Contact-Form label {
         width: 10em;
         text-align: right;
@@ -286,4 +282,19 @@
         width: 5em;
     }
 
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #laptop-pic {
+        display: none;
+    }
+    #Contact-Form {
+        padding: 0em;
+        width: 35em;
+        margin-bottom: 2em;
+    }
+    #Contact-Form input[type="submit"] {
+        margin-right: 6em;
+    }
 }
