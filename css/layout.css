@@ -215,7 +215,7 @@
 
     .experience-heading {
         position: relative;
-        border-radius: 0.8em 0.8em 0 0;
+        border-radius: 0.8em;
         padding: 2em 1em 1em 2em;
         height: 15em;
     }
