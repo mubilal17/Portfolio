@@ -13,6 +13,11 @@
     border-width: 1px;
 }
 
+#desktop-img {
+    height: 100%;
+    max-width: 100%;
+}
+
 .experience-li {
     list-style: none;
 }
