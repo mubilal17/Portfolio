@@ -77,10 +77,6 @@
         margin: .5em;
     }
 
-    #little-bit-about-me{
-        display: none;
-    }
-
     ul, .row {
         margin: 0;
         padding: 0px;
@@ -171,15 +167,16 @@
         margin-top: 6em;
         margin-bottom: 6em;
     }
-    .intro-container, #summary {
+    .intro-container{
         padding: 1em;
         border-radius: 0.8em;
+        margin-bottom: 1.5em;
     }
     #summary {
-        position: absolute;
+        position:relative;
     }
     #education {
-        position: absolute;
+        position: relative;
         left: 20%;
         width: 80%;
     }
@@ -190,9 +187,8 @@
     }
 
     #technical-skills {
-        position: absolute;
+        position: relative;
         height: auto;
-        bottom: 0px;
         width: 100%;
     }
 
