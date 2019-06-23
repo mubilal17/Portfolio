@@ -39,6 +39,10 @@
         border-radius: 0.5em;
         margin: .5em;
     }
+
+    #desktop-img {
+        display: none;
+    }
 }
 /* END Mobile */
 
