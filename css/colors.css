@@ -1,6 +1,6 @@
 /* Navigation */
 .navbar {
-    background-color: #7FA8CC;
+    background-color: #3AC4FF;
 }
 
 .navbar a {
@@ -19,21 +19,24 @@ body {
 
 
 #summary {
-    background-color: #FF8980;
     color: black;
 }
 
+#technical-skills {
+    background-color: #3AC4FF;
+}
+
 .intro-container {
-    background-color: #7FA8CC;
+    background-color: #EFF0D1;
 }
 
 .experience-heading {
-    background-color: #7FA8CC;
+    background-color: #DCEEEF;
     /*background-color: #EFF0D1;*/
 }
 
 .active-experience-li div{
-    background-color: #EFF0D1;
+    background-color: #3AC4FF;
 }
 
 #Contact-Title {
