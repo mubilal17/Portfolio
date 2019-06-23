@@ -27,7 +27,7 @@ body {
 }
 
 .intro-container {
-    background-color: #EFF0D1;
+    background-color: #DCEEEF;
 }
 
 .experience-heading {
@@ -41,21 +41,9 @@ body {
 
 #Contact-Title {
     color: #1A2331;
-    background-color: #7FA8CC;
+    background-color: #3AC4FF;
 }
 
 #Contact-Body {
-    background-color: #F9DBBD;
-}
-
-.btn-primary {
-    background-color: #298EB3;
-}
-
-input[type="text"], textarea {
-    background-color: #FAFAFA;
-}
-
-input[type="text"]:focus, input[type="text"]:hover, input[type="email"]:focus, input[type="email"]:hover, textarea:focus, textarea:hover {
-    border: 0.2em solid #298EB3;
+    background-color: #DCEEEF;
 }
