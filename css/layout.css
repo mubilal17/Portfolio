@@ -1,3 +1,5 @@
+/* START Landing Section */
+
 #summary h1, #education h1 {
     position: relative; 
     float: left;
@@ -7,6 +9,7 @@
     position: relative;
     float: right;
 }
+
 #technical-skills li {
     display: inline-block;
     border-style: solid;
@@ -17,6 +20,71 @@
     height: 100%;
     max-width: 100%;
 }
+
+/* START Mobile */
+@media only screen and (max-width: 767px)
+{
+    .intro-container, #summary {
+        padding: 1.5em;
+        border-radius: 0.8em;
+        margin-top: 3em;
+    }
+
+    .intro-container-icons {
+        height: 2em;
+    }
+
+    #technical-skills li {
+        padding: 0.5em;
+        border-radius: 0.5em;
+        margin: .5em;
+    }
+}
+/* END Mobile */
+
+
+/* START Medium & Large Devices */
+@media only screen and (min-width: 768px) {
+    
+    .intro-container{
+        padding: 1em;
+        border-radius: 0.8em;
+        margin-bottom: 1.5em;
+    }
+    #summary {
+        position:relative;
+    }
+    #education {
+        position: relative;
+        left: 20%;
+        width: 80%;
+    }
+
+    .intro-container-icons {
+        height: 3em;
+        top: -0.2em;
+    }
+
+    #technical-skills {
+        position: relative;
+        height: auto;
+        width: 100%;
+    }
+
+    #technical-skills li {
+        padding: 0.5em;
+        border-radius: 0.5em;
+        margin: .5em;
+    }
+}
+/* END Medium & Large Devices */
+/* END Landing Section */
+
+
+
+
+
+/* START Experience Section */
 
 .experience-li {
     list-style: none;
@@ -37,50 +105,10 @@
     display: inline;
 }
 
-#Contact-Title h1 {
-    position: relative;
-}
-.Contact-Item {
-    margin-bottom: 1em;
-}
-.Contact-Item p {
-    margin-left: 1em;
-    display: inline;
-}
-
-#Contact-Form input[type="submit"] {
-    position: relative;
-    float: right;
-}
-
+/* START Mobile */
 @media only screen and (max-width: 767px)
 {
-    .row {
-        margin-top: 5em;
-        margin-bottom: 5em;
-    }
-
-    .intro-container, #summary {
-        padding: 1.5em;
-        border-radius: 0.8em;
-        margin-top: 3em;
-    }
-
-    .intro-container-icons {
-        height: 2em;
-    }
-
-    #technical-skills li {
-        padding: 0.5em;
-        border-radius: 0.5em;
-        margin: .5em;
-    }
-
-    ul, .row {
-        margin: 0;
-        padding: 0px;
-        width: 100%;
-    }
+    
     .experience-li {
         width: 100%;
         margin-top: 3em;
@@ -103,7 +131,74 @@
     .experience-body {
         display: none;
     }
+}
+/* END Mobile */
 
+
+/* START Medium & Large Devices */
+@media only screen and (min-width: 768px) {
+    .experience-date {
+        margin-top: 3em;
+    }
+    .experience-date p {
+        position: relative;
+        top: 0.1em;
+    }
+
+    .experience-li {
+        position: relative;
+        display: inline-block;
+        padding: 1em;
+        border-radius: 0.5em;
+    }
+
+    .experience-heading {
+        position: relative;
+        border-radius: 0.8em;
+        padding: 2em 1em 1em 2em;
+        height: 15em;
+    }
+
+    .experience-date {
+        position: absolute;
+        right: 2em;
+        bottom: 2em;
+    }
+
+    .experience-body {
+        border-radius: 0 0 0.8em 0.8em;
+        padding: 2em;
+        line-height: 150%;
+        font-size: 0.8em;
+    }
+}
+/* END Medium & Large Devices */
+/* END Experience Section */
+
+
+
+
+/* START Contact Section */
+
+#Contact-Title h1 {
+    position: relative;
+}
+.Contact-Item {
+    margin-bottom: 1em;
+}
+.Contact-Item p {
+    margin-left: 1em;
+    display: inline;
+}
+
+#Contact-Form input[type="submit"] {
+    position: relative;
+    float: right;
+}
+
+/* START Mobile */
+@media only screen and (max-width: 767px)
+{
     #leopard-pic {
         margin-top: 5em;
         width: 90%;
@@ -158,80 +253,28 @@
         right: 5em;
         
     }
-
 }
+/* END Mobile */
+
+/* START Medium Devices */
+@media (min-width: 992px) and (max-width: 1199px) {
+    #laptop-pic {
+        display: none;
+    }
+    #Contact-Form {
+        padding: 0em;
+        width: 35em;
+        margin-bottom: 2em;
+    }
+    #Contact-Form input[type="submit"] {
+        margin-right: 6em;
+    }
+}
+/* END Medium Devices */
+
+/* START Medium & Large Devices */
 @media only screen and (min-width: 768px) {
     
-    .row {
-        margin-top: 6em;
-        margin-bottom: 6em;
-    }
-    .intro-container{
-        padding: 1em;
-        border-radius: 0.8em;
-        margin-bottom: 1.5em;
-    }
-    #summary {
-        position:relative;
-    }
-    #education {
-        position: relative;
-        left: 20%;
-        width: 80%;
-    }
-
-    .intro-container-icons {
-        height: 3em;
-        top: -0.2em;
-    }
-
-    #technical-skills {
-        position: relative;
-        height: auto;
-        width: 100%;
-    }
-
-    #technical-skills li {
-        padding: 0.5em;
-        border-radius: 0.5em;
-        margin: .5em;
-    }
-
-    .experience-date {
-        margin-top: 3em;
-    }
-    .experience-date p {
-        position: relative;
-        top: 0.1em;
-    }
-
-    .experience-li {
-        position: relative;
-        display: inline-block;
-        padding: 1em;
-        border-radius: 0.5em;
-    }
-
-    .experience-heading {
-        position: relative;
-        border-radius: 0.8em;
-        padding: 2em 1em 1em 2em;
-        height: 15em;
-    }
-
-    .experience-date {
-        position: absolute;
-        right: 2em;
-        bottom: 2em;
-    }
-
-    .experience-body {
-        border-radius: 0 0 0.8em 0.8em;
-        padding: 2em;
-        line-height: 150%;
-        font-size: 0.8em;
-    }
-
     #leopard-pic {
         width: 90%;
         position: relative;
@@ -280,20 +323,38 @@
         right: 1.75em;
         width: 5em;
     }
+}
+/* END Medium & Large Devices */
+/* END Contact Section */
+
+
+
+
+/* START General Mobile */
+@media only screen and (max-width: 767px)
+{
+    .row {
+        margin-top: 5em;
+        margin-bottom: 5em;
+    }
+
+
+    ul, .row {
+        margin: 0;
+        padding: 0px;
+        width: 100%;
+    }
 
 }
+/* END General Mobile */
 
 
-@media (min-width: 992px) and (max-width: 1199px) {
-    #laptop-pic {
-        display: none;
+/* START Medium & Large Devices */
+@media only screen and (min-width: 768px) {
+    .row {
+        margin-top: 6em;
+        margin-bottom: 6em;
     }
-    #Contact-Form {
-        padding: 0em;
-        width: 35em;
-        margin-bottom: 2em;
-    }
-    #Contact-Form input[type="submit"] {
-        margin-right: 6em;
-    }
+
 }
+/* END Medium & Large Devices */
