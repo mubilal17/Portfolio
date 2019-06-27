@@ -1,11 +1,11 @@
 /* START Landing Section */
 
-#summary h1, #education h1 {
+#summary-block h1, #education h1 {
     position: relative; 
     float: left;
 }
 
-.intro-container-icons {
+.landing-block__icon {
     position: relative;
     float: right;
 }
@@ -24,13 +24,13 @@
 /* START Mobile */
 @media only screen and (max-width: 767px)
 {
-    .intro-container, #summary {
+    .landing-block, #summary-block {
         padding: 1.5em;
         border-radius: 0.8em;
         margin-top: 3em;
     }
 
-    .intro-container-icons {
+    .landing-block__icon {
         height: 2em;
     }
 
@@ -50,12 +50,12 @@
 /* START Medium & Large Devices */
 @media only screen and (min-width: 768px) {
     
-    .intro-container{
+    .landing-block{
         padding: 1em;
         border-radius: 0.8em;
         margin-bottom: 1.5em;
     }
-    #summary {
+    #summary-block {
         position:relative;
     }
     #education {
@@ -64,7 +64,7 @@
         width: 80%;
     }
 
-    .intro-container-icons {
+    .landing-block__icon {
         height: 3em;
         top: -0.2em;
     }

@@ -18,7 +18,7 @@ body {
 /* End Body Background */
 
 
-#summary {
+#summary-block {
     color: black;
 }
 
@@ -26,7 +26,7 @@ body {
     background-color: #3AC4FF;
 }
 
-.intro-container {
+.landing-block {
     background-color: #DCEEEF;
 }
 
