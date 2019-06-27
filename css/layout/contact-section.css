@@ -1,0 +1,114 @@
+
+#Contact-Title h1 {
+    position: relative;
+}
+.Contact-Item {
+    margin-bottom: 1em;
+}
+.Contact-Item p {
+    margin-left: 1em;
+    display: inline;
+}
+
+/* Mobile */
+@media only screen and (max-width: 767px)
+{
+    #leopard-pic {
+        margin-top: 5em;
+        width: 90%;
+        position: relative;
+        bottom: -0.3em;
+    }
+
+    #laptop-pic {
+        display: none;
+    }
+
+    #Contact-Title {
+        padding-top: 2em;
+        height: 5em;
+        border-radius: 0.5em 0.5em 0em 0em;
+    }
+
+    #Contact-Body {
+        width: 100%;
+        padding: 1.5em;
+        border-radius: 0em 0em 0.5em 0.5em;
+    }
+
+    .Contact-Item {
+        margin-bottom: 1em;
+    }
+
+    #Contact-Form {
+        margin-top: 3em;
+        margin-bottom: 3em;
+        width: 20em;
+    }
+
+
+    #Contact-Form label {
+        font-size: 0.8em;
+        width: 5em;
+        text-align: right;
+        margin-right: 1em;
+        margin-bottom: 2em;
+    }
+}
+/* END Mobile */
+
+/* Medium Devices */
+@media (min-width: 992px) and (max-width: 1199px) {
+    #laptop-pic {
+        display: none;
+    }
+    #Contact-Form {
+        padding: 0em;
+        width: 35em;
+        margin-bottom: 2em;
+    }
+}
+/* END Medium Devices */
+
+/* Medium & Large Devices */
+@media only screen and (min-width: 768px) {
+    
+    #leopard-pic {
+        width: 90%;
+        position: relative;
+        bottom: -0.3em;
+    }
+
+    #laptop-pic {
+        padding-top: 10em;
+        width: 100%;
+    }
+
+    #Contact-Title {
+        padding-top: 2em;
+        height: 5em;
+        border-radius: 0.5em 0.5em 0em 0em;
+    }
+
+    #Contact-Body {
+        width: 100%;
+        padding: 3em;
+        border-radius: 0em 0em 0.5em 0.5em;
+    }
+
+    #Contact-Body p {
+        margin-bottom: 3em;
+    }
+
+    #Contact-Form {
+        padding: 3em;
+        width: 35em;
+    }
+    #Contact-Form label {
+        width: 10em;
+        text-align: right;
+        margin-right: 2em;
+        margin-bottom: 2em;
+    }
+}
+/* END Medium & Large Devices */
