@@ -1,0 +1,97 @@
+.block_header {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.block_header h1 {
+    position: relative;
+    float: left;
+}
+
+.block_header img {
+    position: relative;
+    float: right;
+}
+
+.landing-block__icon {
+    position: relative;
+    float: right;
+}
+
+#technical-skills li {
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#desktop-img {
+    height: 100%;
+    max-width: 100%;
+}
+
+
+
+/* Mobile */
+@media only screen and (max-width: 767px)
+{
+    .landing-block, #summary-block {
+        padding: 1.5em;
+        border-radius: 0.8em;
+        margin-top: 3em;
+    }
+
+    .landing-block__icon {
+        height: 2em;
+    }
+
+    #technical-skills li {
+        padding: 0.5em;
+        border-radius: 0.5em;
+        margin: .5em;
+    }
+
+    #desktop-img {
+        display: none;
+    }
+}
+/* END Mobile */
+
+
+
+
+/* Medium & Large Devices */
+@media only screen and (min-width: 768px) {
+    
+    .landing-block{
+        padding: 1em;
+        border-radius: 0.8em;
+        margin-bottom: 1.5em;
+    }
+    #summary-block {
+        position:relative;
+    }
+    #education {
+        position: relative;
+        left: 20%;
+        width: 80%;
+    }
+
+    .landing-block__icon {
+        height: 3em;
+        top: -0.2em;
+    }
+
+    #technical-skills {
+        position: relative;
+        height: auto;
+        width: 100%;
+    }
+
+    #technical-skills li {
+        padding: 0.5em;
+        border-radius: 0.5em;
+        margin: .5em;
+    }
+}
+/* END Medium & Large Devices */
