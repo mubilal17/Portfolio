@@ -13,7 +13,7 @@
 
 /* Body Background */
 body {
-    background-color: #333333;
+    background-color: #FFFFFC;
 }
 /* End Body Background */
 
@@ -27,7 +27,11 @@ body {
 }
 
 .landing-block {
-    background-color: #DCEEEF;
+    background-color: #EDEDED;
+}
+
+.landing-block p {
+    color: #5D6163;
 }
 
 .experience-heading {
