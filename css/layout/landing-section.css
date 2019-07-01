@@ -1,6 +1,17 @@
-#summary-block h1, #education h1 {
-    position: relative; 
+.block_header {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.block_header h1 {
+    position: relative;
     float: left;
+}
+
+.block_header img {
+    position: relative;
+    float: right;
 }
 
 .landing-block__icon {
