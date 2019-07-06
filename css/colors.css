@@ -35,19 +35,19 @@ body {
 }
 
 .experience-heading {
-    background-color: #DCEEEF;
+    background-color: #EDEDED;
     /*background-color: #EFF0D1;*/
 }
 
 .active-experience-li div{
-    background-color: #3AC4FF;
+    background-color: #4CE0D2;
 }
 
 #Contact-Title {
     color: #1A2331;
-    background-color: #3AC4FF;
+    background-color: #4CE0D2;
 }
 
 #Contact-Body {
-    background-color: #DCEEEF;
+    background-color: #EDEDED;
 }
