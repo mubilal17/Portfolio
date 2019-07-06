@@ -25,14 +25,14 @@ h1 {
         margin-left: 1em;
     }
 
-    .experience-heading p {
+    .experience-block p {
         font-size: 0.8em;
     }
 
-    .experience-heading h1 {
+    .experience-block h1 {
         font-size: 1em;
     }
-    .experience-heading p {
+    .experience-block p {
         font-size: 0.8em;
     }
     .experience-date p {
