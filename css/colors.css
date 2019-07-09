@@ -4,6 +4,9 @@
 
     --primary-text: black;
     --muted-text: lightslategray;
+
+    --block-color: #EDEDED;
+    --block-color_active: var(--primary-color);
 }
 
 /* Navigation */
@@ -31,11 +34,11 @@ body {
 }
 
 #technical-skills {
-    background-color: var(--primary-color);
+    background-color: var(--block-color_active);
 }
 
 .landing-block {
-    background-color: #EDEDED;
+    background-color: var(--block-color);
 }
 
 .landing-block p {
@@ -43,19 +46,19 @@ body {
 }
 
 .experience-block {
-    background-color: #EDEDED;
+    background-color: var(--block-color);
     /*background-color: #EFF0D1;*/
 }
 
 .active-experience-li div{
-    background-color: var(--primary-color);
+    background-color: var(--block-color_active);
 }
 
 #Contact-Title {
     color: #1A2331;
-    background-color: var(--primary-color);
+    background-color: var(--block-color_active);
 }
 
 #Contact-Body {
-    background-color: #EDEDED;
+    background-color: var(--block-color);
 }
