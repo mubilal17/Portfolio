@@ -7,6 +7,8 @@
 
     --block-color: #EDEDED;
     --block-color_active: var(--primary-color);
+
+    --block-shadow-color: lightslategray;
 }
 
 /* Navigation */
@@ -34,6 +36,7 @@ body {
 
 .landing-block {
     background-color: var(--block-color);
+    box-shadow: 3px 3px var(--block-shadow-color);
 }
 
 .landing-block p {
@@ -42,6 +45,7 @@ body {
 
 .experience-block {
     background-color: var(--block-color);
+    box-shadow: 3px 3px var(--block-shadow-color);
     /*background-color: #EFF0D1;*/
 }
 
@@ -49,6 +53,9 @@ body {
     background-color: var(--block-color_active);
 }
 
+#Contact-Information {
+    box-shadow: 3px 3px var(--block-shadow-color);
+}
 #Contact-Title {
     color: #1A2331;
     background-color: var(--block-color_active);
