@@ -1,6 +1,6 @@
 :root {
     --primary-color: #4CE0D2;
-    --secondary-color: black;
+    --secondary-color: lightskyblue;
 
     --primary-text: black;
     --muted-text: lightslategray;
@@ -13,7 +13,7 @@
 
 /* Navigation */
 .navbar {
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
 }
 
 .navbar a {
@@ -38,7 +38,6 @@ body {
     background-color: var(--block-color);
     box-shadow: 3px 3px var(--block-shadow-color);
 }
-
 .landing-block p {
     color: var(--muted-text);
 }
