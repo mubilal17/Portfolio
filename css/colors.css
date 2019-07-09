@@ -52,6 +52,10 @@ body {
     color: var(--muted-text);
 }
 
+.experience-block a, .experience-block:visited {
+    color: black;
+}
+
 .active-experience-li div{
     background-color: var(--block-color_active);
 }
