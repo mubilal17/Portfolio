@@ -28,11 +28,6 @@ body {
 }
 /* End Body Background */
 
-
-#summary-block {
-    color: black;
-}
-
 #technical-skills {
     background-color: var(--block-color_active);
 }
@@ -42,7 +37,7 @@ body {
 }
 
 .landing-block p {
-    color: #5D6163;
+    color: var(--muted-text);
 }
 
 .experience-block {
