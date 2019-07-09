@@ -49,6 +49,10 @@ body {
     /*background-color: #EFF0D1;*/
 }
 
+.experience-block p {
+    color: var(--muted-text);
+}
+
 .active-experience-li div{
     background-color: var(--block-color_active);
 }
