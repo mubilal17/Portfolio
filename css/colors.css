@@ -1,3 +1,11 @@
+:root {
+    --primary-color: #4CE0D2;
+    --secondary-color: black;
+
+    --primary-text: black;
+    --muted-text: lightslategray;
+}
+
 /* Navigation */
 .navbar {
     background-color: #4CE0D2;
