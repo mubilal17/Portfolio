@@ -10,3 +10,7 @@ h1 {
 .block_header h1{
     font-family: 'Raleway', sans-serif;
 }
+
+#technical-skills li {
+    font-size: 80%;
+}
