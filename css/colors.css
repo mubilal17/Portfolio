@@ -7,7 +7,7 @@
     --block-color: #EDEDED;
     --block-color_active: var(--primary-color);
 
-    --block-shadow-color: lightslategray;
+    --block-shadow-color: #DDD;
 }
 
 /* Navigation */
@@ -35,7 +35,7 @@ body {
 
 .block {
     background-color: var(--block-color);
-    box-shadow: 3px 3px var(--block-shadow-color);
+    box-shadow: 0px 1px 6px 3px var(--block-shadow-color);
 }
 .block p {
     opacity: 0.55;
