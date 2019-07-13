@@ -45,21 +45,6 @@
 
 /* Medium & Large Devices */
 @media only screen and (min-width: 768px) {
-    
-    
-    #summary-block {
-        position:absolute;
-        top: 0px;
-        right: 0px;
-    }
-    #interests {
-        position: absolute;
-        right: 0px;
-        bottom: 0%;
-    }
-
-    
-
     #technical-skills {
         position: relative;
         height: auto;
