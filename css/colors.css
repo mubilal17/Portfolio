@@ -3,7 +3,6 @@
     --secondary-color: lightskyblue;
 
     --primary-text: black;
-    --muted-text: lightslategray;
 
     --block-color: #EDEDED;
     --block-color_active: var(--primary-color);
@@ -39,7 +38,7 @@ body {
     box-shadow: 3px 3px var(--block-shadow-color);
 }
 .block p {
-    color: var(--muted-text);
+    opacity: 0.55;
 }
 
 #Contact-Information {

@@ -1,0 +1,11 @@
+:root {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 125%;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+.block_header h1{
+    font-family: 'Raleway', sans-serif;
+}
