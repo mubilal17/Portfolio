@@ -1,6 +1,7 @@
 :root {
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 125%;
+    word-wrap: break-word;
 }
 
 h1 {
