@@ -16,9 +16,7 @@
 @media only screen and (max-width: 767px)
 {
 
-
     #technical-skills li {
-        padding: 0.5em;
         border-radius: 0.5em;
         margin: .5em;
     }

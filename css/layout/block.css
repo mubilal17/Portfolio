@@ -6,6 +6,10 @@
 .block_header {
 }
 
+.block_content {
+    padding: 1em;
+}
+
 .block_footer {
     position: absolute;
 }
@@ -41,7 +45,7 @@
         border-radius: 0.8em;
         margin-bottom: 1.5em;
     }
-    
+
     .block_footer {
         margin-top: 3em;
     }
