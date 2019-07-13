@@ -1,44 +1,7 @@
 
 
 
-.block_footer {
-    position: absolute;
-}
-
-.block_footer p {
-    display: inline;
-}
-
-/* Mobile */
-@media only screen and (max-width: 767px)
-{
-    
-
-    .block_footer {
-        bottom: 1em;
-        right: 2em;
-    }
-    .block_footer p {
-        bottom: 0.1em;
-    }
-}
-/* END Mobile */
 
 
-/* Medium & Large Devices */
-@media only screen and (min-width: 768px) {
-    .block_footer {
-        margin-top: 3em;
-    }
-    .block_footer p {
-        position: relative;
-        top: 0.1em;
-    }
 
-    .block_footer {
-        position: absolute;
-        right: 2em;
-        bottom: 2em;
-    }
-}
-/* END Medium & Large Devices */
+
