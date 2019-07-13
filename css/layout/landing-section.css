@@ -12,6 +12,17 @@
     max-width: 100%;
 }
 
+#interests ul {
+    list-style: none;
+}
+
+#interests li {
+    margin-bottom: 0.7em;
+}
+
+#interests li i, #interests p {
+    display: inline;
+}
 
 
 /* Mobile */
@@ -43,6 +54,7 @@
     }
     #interests {
         position: absolute;
+        right: 0px;
         bottom: 0%;
     }
 

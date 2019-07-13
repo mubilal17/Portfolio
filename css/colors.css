@@ -52,3 +52,10 @@ body {
 #Contact-Body {
     background-color: var(--block-color);
 }
+
+.fa-check-circle {
+    color: var(--primary-color);
+}
+.fa-heart {
+    color: red;
+}
