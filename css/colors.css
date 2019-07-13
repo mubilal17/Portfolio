@@ -34,11 +34,11 @@ body {
     background-color: var(--block-color_active);
 }
 
-.landing-block {
+.block {
     background-color: var(--block-color);
     box-shadow: 3px 3px var(--block-shadow-color);
 }
-.landing-block p {
+.block p {
     color: var(--muted-text);
 }
 

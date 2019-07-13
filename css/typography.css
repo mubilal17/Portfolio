@@ -21,7 +21,7 @@ h1 {
         font-size: 0.8em;
     }
 
-    .landing-block p {
+    .block p {
         margin-left: 1em;
     }
 
@@ -47,12 +47,12 @@ h1 {
         font-size: 1.5em;
     }
 
-    .landing-block p {
+    .block p {
         margin-left: 1em;
         margin-right: 2em;
     }
 
-    #summary-block.landing-block p {
+    #summary-block.block p {
         margin-right: 3em;
     }
 }
