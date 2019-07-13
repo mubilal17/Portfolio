@@ -45,12 +45,7 @@
 
 /* Medium & Large Devices */
 @media only screen and (min-width: 768px) {
-    #technical-skills {
-        position: relative;
-        height: auto;
-        width: 100%;
-    }
-
+    
     #technical-skills li {
         padding: 0.5em;
         border-radius: 0.5em;
