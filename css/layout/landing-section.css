@@ -37,12 +37,15 @@
     
     
     #summary-block {
-        position:relative;
+        position:absolute;
+        top: 0px;
+        right: 0px;
     }
     #education {
-        position: relative;
-        left: 20%;
+        position: absolute;
         width: 80%;
+        left: 20%;
+        bottom: 0%;
     }
 
     
