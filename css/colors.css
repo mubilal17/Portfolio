@@ -42,24 +42,6 @@ body {
     color: var(--muted-text);
 }
 
-.experience-block {
-    background-color: var(--block-color);
-    box-shadow: 3px 3px var(--block-shadow-color);
-    /*background-color: #EFF0D1;*/
-}
-
-.experience-block p {
-    color: var(--muted-text);
-}
-
-.experience-block a, .experience-block:visited {
-    color: black;
-}
-
-.active-experience-li div{
-    background-color: var(--block-color_active);
-}
-
 #Contact-Information {
     box-shadow: 3px 3px var(--block-shadow-color);
 }

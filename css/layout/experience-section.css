@@ -1,13 +1,4 @@
 
-.experience-li {
-    list-style: none;
-}
-
-
-.experience-block {
-    width: 100%;
-    margin: 0px auto;
-}
 
 
 .block_footer {
@@ -22,16 +13,6 @@
 @media only screen and (max-width: 767px)
 {
     
-    .experience-li {
-        width: 100%;
-        margin-top: 3em;
-    }
-
-    .experience-block {
-        padding: 2em 1em 1em 1em;
-        height: 10em;
-        border-radius: 1em;
-    }
 
     .block_footer {
         bottom: 1em;
@@ -39,10 +20,6 @@
     }
     .block_footer p {
         bottom: 0.1em;
-    }
-
-    .experience-body {
-        display: none;
     }
 }
 /* END Mobile */
@@ -58,31 +35,10 @@
         top: 0.1em;
     }
 
-    .experience-li {
-        position: relative;
-        display: inline-block;
-        padding: 1em;
-        border-radius: 0.5em;
-    }
-
-    .experience-block {
-        position: relative;
-        border-radius: 0.8em;
-        padding: 2em 1em 1em 2em;
-        height: 15em;
-    }
-
     .block_footer {
         position: absolute;
         right: 2em;
         bottom: 2em;
-    }
-
-    .experience-body {
-        border-radius: 0 0 0.8em 0.8em;
-        padding: 2em;
-        line-height: 150%;
-        font-size: 0.8em;
     }
 }
 /* END Medium & Large Devices */
