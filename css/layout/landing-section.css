@@ -1,4 +1,6 @@
-
+#technical-skills ul {
+    clear:both;
+}
 #technical-skills li {
     display: inline-block;
     border-style: solid;

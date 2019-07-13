@@ -3,10 +3,23 @@
     display: inline-block;
     width: 100%;
 }
-.block_header {
+
+.block_header_with-icon {
+}
+.block_header_with-icon h1{
+    position: relative;
+    float: left;
+}
+
+.block_header_with-icon i{
+    position: relative;
+    float: right;
+    padding-top: 0.15em;
+    font-size: 1.5em
 }
 
 .block_content {
+    clear: both;
     padding: 1em;
 }
 
