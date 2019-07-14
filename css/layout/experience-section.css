@@ -1,0 +1,53 @@
+:root {
+    --exp-section_background-color: #343434;
+    --exp-left_color: #b9b9b9;
+    --exp-border: hsl(174.3, 40%, 40%);
+    --exp-work-header_color: hsl(174.3, 70%, 40%);
+    --exp-content-text_color: #b9b9b9;
+}
+
+#experience-section {
+    background-color: var(--exp-section_background-color);
+}
+
+.exp {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-image: url('/images/circuit-board.svg');
+}
+
+.exp.row {
+    border-bottom: 5px solid var(--exp-border);
+}
+
+.exp.row:first-of-type {
+    border-top: 5px solid var(--exp-border);
+}
+
+.exp-left {
+    font-size: 150%;
+    font-weight: bold;
+    color: var(--exp-left_color);
+    padding: 2em;
+}
+.exp-right {
+    padding: 2em 2em 7em 2em;
+}
+
+.exp-header {
+    margin-bottom: 3em;
+    text-align: right;
+}
+
+.exp-header h1 {
+    color: var(--exp-work-header_color);
+    border-bottom: 2px solid #aaa;
+}
+
+.exp-header p {
+    color: #999;
+}
+.exp-content {
+    color: var(--exp-content-text_color);
+    font-size: 80%;
+}
