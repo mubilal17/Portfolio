@@ -11,12 +11,17 @@
 }
 
 /* Navigation */
+nav.navbar {
+    background-image: url('/images/diagonal-lines.svg');
+    background-color: #343434;
+}
 .navbar {
-    background-color: var(--secondary-color);
 }
 
 .navbar a {
-    color: #2E3F41;
+    color: var(--primary-color);
+    filter: saturate(25%);
+    opacity: 50%;
 }
 
 
