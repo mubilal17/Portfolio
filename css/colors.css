@@ -15,8 +15,7 @@ nav.navbar {
     background-image: url('/images/diagonal-lines.svg');
     background-color: #343434;
 }
-.navbar {
-}
+
 
 .navbar a {
     color: var(--primary-color);
@@ -36,6 +35,7 @@ body {
 
 #technical-skills {
     background-color: var(--block-color_active);
+    background-image: url('/images/floating-cogs.svg');
 }
 
 .block {
