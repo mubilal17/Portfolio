@@ -23,10 +23,13 @@
 }
 
 .exp-left {
-    font-size: 150%;
-    font-weight: bold;
+    font-size: 110%;
+	text-align: center;
     color: var(--exp-left_color);
     padding: 2em;
+}
+.exp-left p{
+	font-size: 75%;
 }
 .exp-right {
     padding: 2em 2em 7em 2em;
@@ -51,6 +54,7 @@
 	#experience-section .row {
 		margin-bottom: 10em;
 	}
+
 	.exp-right {
 		padding: 0;
 	}
@@ -59,14 +63,10 @@
 	}
 
 	.exp-content {
-		padding: 0.1em 0.2em 0.1em 0.2em;
+		padding: 0.1em 0.2em 0.1em 0.9em;
 	}
 }
 .exp-content {
     color: var(--exp-content-text_color);
 	text-align: left;
-}
-
-.exp-work {
-	text-align: center;
 }
