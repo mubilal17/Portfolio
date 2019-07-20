@@ -8,12 +8,12 @@
 
 #experience-section {
     background-color: var(--exp-section_background-color);
+    background-image: url('/images/circuit-board.svg');
 }
 
 .exp {
     margin-top: 0px;
     margin-bottom: 0px;
-    background-image: url('/images/circuit-board.svg');
 }
 
 .exp.row {
