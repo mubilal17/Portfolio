@@ -24,6 +24,10 @@
     display: inline;
 }
 
+#technical-skills li {
+    font-size: 80%;
+}
+
 
 /* Mobile */
 @media only screen and (max-width: 767px)
@@ -45,7 +49,7 @@
 
 /* Medium & Large Devices */
 @media only screen and (min-width: 768px) {
-    
+
     #technical-skills li {
         padding: 0.5em;
         border-radius: 0.5em;
