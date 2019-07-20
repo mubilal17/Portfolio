@@ -36,6 +36,7 @@
     #technical-skills li {
         border-radius: 0.5em;
         margin: .5em;
+		padding: 0.3em;
     }
 
     #desktop-img {
