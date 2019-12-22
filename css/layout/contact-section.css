@@ -1,21 +1,20 @@
 
+.contact-email {
+	border-bottom: 3px solid #4CE0D2;
+}
+
+#contact img {
+	height: 5em;margin-left: 1em;
+}
+
 @media only screen and (min-width: 768px)
 {
-	#contact h3 {
-		color: #555;
-		font-size: 400%;
-	}
-
 	#contact p {
 		font-size: 200%;
-		text-align: right;
 	}
 
-	.contact-email {
-		border: 1px solid black;
-		padding: 5px;
-		border-radius: 25px;
-		background-color: #4CE0D2;
+	#contact {
+		padding-bottom: 10em;
 	}
 }
 
@@ -25,20 +24,8 @@
 	#contact {
 		margin-top: 5em;
 	}
-	#contact h3 {
-		color: #555;
-		font-size: 100%;
-	}
 
 	#contact p {
 		font-size: 90%;
-		text-align: right;
-	}
-
-	.contact-email {
-		border: 1px solid black;
-		padding: 5px;
-		border-radius: 25px;
-		background-color: #4CE0D2;
 	}
 }
